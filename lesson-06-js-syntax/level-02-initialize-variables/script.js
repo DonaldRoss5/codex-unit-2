@@ -8,3 +8,12 @@
 // Add your lines below:
 
 let totalCount = 0;
+let userName = "Allen";
+let firstName = "Marcus";
+let last name = "Kennedy";
+let middleName = "Daddy"
+let age = 24;
+let birthMonth = 6;
+let bithDay = 25;
+let birthYear = 1988;
+

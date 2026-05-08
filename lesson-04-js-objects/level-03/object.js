@@ -1,6 +1,11 @@
 // TODO: Declare a simple object and export it as the default export.
 // Example: const user = { name: 'Ava' }; export default user;
-const studentObject = {
-  /* TODO: add properties */
+/* TODO: add properties */
+
+
+const student = {
+firstName: "Donald"
+lastName: "Kennedy"
+
 };
-export default studentObject;
+export default student;

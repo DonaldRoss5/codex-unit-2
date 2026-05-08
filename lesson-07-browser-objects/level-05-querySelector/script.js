@@ -16,4 +16,7 @@
 const pTag = document.querySelector("p");
 
 pTag.innerHTML = "<h2>I love Marcus!</h2>";
+<<<<<<< HEAD
 >>>>>>> b81312d (level 5 completed)
+=======
+>>>>>>> 8542081 (all completed)

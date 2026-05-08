@@ -7,16 +7,22 @@ let userAge;
 let city;
 let country;
 
+firstName = "Marcus";
+lastName = "Kennedy";
+userAge = 38;
+city = Grambling;
+country = USA;
+
 // TODO: Part B: fix five faulty string initializations so they parse correctly.
 
 let = "noName";
 
-let lastName "Smith";
+let lastName = "Smith";
 
-let city = "New York;
+let city = "New York";
 
-let country = ""USA"";
+let country = "USA";
 
-let planet = Earth;
+let planet = "Earth";
 
 export default firstame;

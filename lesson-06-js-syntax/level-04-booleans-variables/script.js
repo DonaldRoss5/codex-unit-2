@@ -5,3 +5,12 @@
 // let isLoggedIn = false;
 
 let isLoggedIn = false;
+let hasLoggedIn = true;
+let canLoggedIn = false;
+let shouldLoggededIn = true;
+let canLogIn = true;
+let hasLogIn = false;
+let canLogIn = true;
+let shouldLogIn = true;
+let isLoggingIn = true;
+let hasLoggingIn = false;

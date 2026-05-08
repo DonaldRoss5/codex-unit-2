@@ -6,9 +6,43 @@
     <title>Lesson 02 — Level 08</title>
   </head>
   <body>
-    <h1>Level 08 — Grouping Controls</h1>
+    <h1>Feedback on show</h1>
+    <!-- TODO: Group related controls using <fieldset> and describe the group with <legend> -->
+
+ <h1>Level 07 — Labels & Accessibility</h1>
+    <!-- TODO: Attach labels to controls. Use <label for="id"> or wrap the input inside <label>. -->
     <form>
-      <!-- TODO: Group related controls using <fieldset> and describe the group with <legend> -->
-    </form>
+      <form>
+        <fieldset>
+
+          <legend>Rating</legend>
+
+          <label for="good-rating">Good:</label>
+          <input id="good-rating" type="radio" name="rating" />
+          
+          <label for="bad-rating">Bad</label>
+          <input id="bad-rating" type="radio" name="rating" />
+          
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Shows</legend>
+
+          <label for="friday-show">Did you watch the show on Friday?</label>
+          <input id="friday-show" type="checkbox" />
+          
+          <br />
+          
+          <label for="saturday-show">Did you watch the show on Saturday?</label>
+          <input id="saturday-show" type="checkbox" />
+        </fieldset>
+
+
+        <br />
+        <button type="submit">Submit rating</button>
+      </form>
+
   </body>
 </html>

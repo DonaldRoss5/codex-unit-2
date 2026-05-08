@@ -6,3 +6,6 @@ export function reportScore(playerName, score) {
 }
 
 const avaScoreReport = reportScore("Ava", 0);
+const donScoreReport = reportScore("Donald", 5);
+const marcusScoreReport = reportScore("Marcus", 10);
+const allenScoreReport = reportScore("Allen", 6);

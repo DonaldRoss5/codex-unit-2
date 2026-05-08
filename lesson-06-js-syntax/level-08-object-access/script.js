@@ -32,3 +32,9 @@ const order = {
 };
 
 const id = order.id;
+
+const gift = order.isGift;
+const customerContact = order.customer.contact;
+const customerState = order.address.state;
+
+export default customerState;

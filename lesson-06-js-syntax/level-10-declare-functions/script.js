@@ -4,3 +4,20 @@
 function getUser() {
   return "returns the current user";
 }
+
+function getPassword() {
+  return "return the current password";
+
+  function myLogin() {
+    return "get me my login";
+  }
+
+  function getAddress() {
+    return "get me my address";
+  }
+  function myLocation() {
+    return "here is your current location";
+  }
+
+  export default getAddress;
+}
