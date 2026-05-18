@@ -8,7 +8,7 @@ console.log(item);
 
 const student = {
 level: 2,
-firstName: "Marcus",
+firstName: "Damon",
 lastName: "Kennedy",
 };
 
