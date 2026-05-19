@@ -7,11 +7,11 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Login</h1>
+    <h1>Login API (Level 01)</h1>
     <form id="loginForm">
       <label>
-        Email
-        <input type="email" name="username" required />
+       User name or Email: 
+        <input type="text" name="username" required />
       </label>
       <label>
         Password
@@ -19,5 +19,7 @@
       </label>
       <button type="submit">Login</button>
     </form>
+<div id="error" aria aria-live="polite"></div>
+<div id="success" aria-live="polite"></div>
   </body>
 </html>
