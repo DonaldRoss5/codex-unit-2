@@ -8,12 +8,12 @@
 =======
 // Level 08 — preventDefault starter
 // TODO: update your submit handler to call event.preventDefault() before other logic
+// TODO: uncomment the next line when you want to prevent navigation
 
 const form = document.querySelector("form");
 form.onsubmit = handleSubmit;
 
 function handleSubmit(event) {
-  // TODO: uncomment the next line when you want to prevent navigation
   // event.preventDefault();
   event.preventDefault();
   console.log(
