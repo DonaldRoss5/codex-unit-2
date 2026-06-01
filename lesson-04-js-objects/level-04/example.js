@@ -10,3 +10,4 @@ const student = {
   lastName: "Kennedy",
 };
 export default student;
+console.log("student");
