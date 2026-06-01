@@ -2,10 +2,8 @@
 // Example: const user = { name: 'Ava' }; export default user;
 /* TODO: add properties */
 
-
 const student = {
-firstName: "Donald"
-lastName: "Kennedy"
-
+  firstName: "Donald",
+  lastName: "Kennedy",
 };
 export default student;

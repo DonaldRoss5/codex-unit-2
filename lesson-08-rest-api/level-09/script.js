@@ -18,12 +18,14 @@ async function handleSubmit(event) {
     b: form.elements.b.value,
     c: form.elements.c.value,
   };
-  const respone = await fetch("https://jsonplaceholder.tyicode.com/posts", {
+  const respone = await fetch("https://jsonplaceholder.tyicode.com/posts"{
     method: "POST",
     body: JSON.stringify(data),
   });
-const user = await Response.json();
+const user = await response.json();
 const id = user.id;
   const pTag = document.getElementById("v1");
 
-  pTag.innerText =
+  pTag.innerText = "user ID: " + id;
+
+}

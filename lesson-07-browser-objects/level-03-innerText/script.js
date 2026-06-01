@@ -17,6 +17,7 @@
 const pTag = document.getElementById("desc");
 
 console.log(pTag.innerText);
+
 pTag.innerText = "Hello Donald!";
 
 console.log(pTag.innerText);

@@ -12,11 +12,31 @@
 // // TODO: el.innerHTML = '<strong>New content</strong>';
 // console.log('after innerHTML:', el && el.innerHTML);
 
-const myContent = document.getElementById("content");
+//const myContent = document.getElementById("content");
 
-console.log(myContent && myContent.innerHTML);
+//console.log(myContent && myContent.innerHTML);
 
-myContent.innerHTML = "Hi Marcus";
+//myContent.innerHTML = "Hi Marcus";
 
+<<<<<<< HEAD
 console.log(myContent.innerHTML);
 >>>>>>> 8542081 (all completed)
+=======
+//console.log(myContent.innerHTML);
+
+const divTag = document.getElementById("content");
+
+divTag.innerHTML = "<h1>Hello World!</h1>";
+
+console.log(divTag.innerHTML);
+
+const pTag = document.getElementById("pContent");
+
+pTag.innerHTML = "<p>Hi Donald</p>";
+
+console.log(pTag.innerHTML);
+
+//const strongTag = document.querySelector("tStrong");
+
+//strongTag.innerHTML = "<h1>I am here</h1>";
+>>>>>>> c107093 (completed)

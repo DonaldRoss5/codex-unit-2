@@ -15,18 +15,20 @@
 const form = document.getElementById("sample-form");
 form.onsubmit = handleSubmit;
 
-
-
+/////////////////////////////////////////
 
 function handleSubmit(event) {
-event.preventDefault();
-const form = event.target;
+  event.preventDefault();
+  const formTag = event.target;
+  console.log(formTag.id);
 
-  console.log("event.target:", event.target);
-  console.log("event.currentTarget:", event.currentTarget);
-  // TODO: const form = event.target; use form.elements to access inputs
+  // console.log("event.target:", event.target);
+  //console.log("event.currentTarget:", event.currentTarget);
 }
+<<<<<<< HEAD
 
 // const form = document.getElementById('sample-form');
 // if (form) form.onsubmit = handleSubmit;
 >>>>>>> 8542081 (all completed)
+=======
+>>>>>>> c107093 (completed)

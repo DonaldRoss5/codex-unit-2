@@ -5,7 +5,9 @@
     },
   ],
   "settings": {
-    "liveServer.settings.port": 5501,
+    "liveServer.settings.port": 5502,
+    "debug.terminal.clearBeforeReusing": true,
+    "debug.toolBarLocation": "docked",
   },
   "launch": {
     "configurations": [
@@ -14,6 +16,12 @@
         "name": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-01-boilerplate/index.html",
         "request": "launch",
         "url": "http://127.0.0.1:3000/lesson-01-semantic-tags/level-01-boilerplate/index.html",
+      },
+      {
+        "type": "chrome",
+        "name": "http://127.0.0.1:3000/lesson-07-browser-objects/level-04-innerHTML/index.html",
+        "request": "launch",
+        "url": "http://127.0.0.1:3000/lesson-07-browser-objects/level-04-innerHTML/index.html",
       },
     ],
   },
